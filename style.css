@@ -12,8 +12,12 @@ body{
   min-height: 100vh;
   background: #ebeff0;
 }
+.chooseFile {
+  color:#918f8a;
+
+}
 .drag-area{
-  border: 2px dashed #fff;
+  border: 4px dashed #c4c3be;
   height: 500px;
   width: 700px;
   border-radius: 5px;
@@ -21,7 +25,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-   background: #c4cccf;
+   background: #8f9697;
 }
 .drag-area.active{
   border: 2px solid #fff;
@@ -48,7 +52,7 @@ body{
   border: none;
   outline: none;
   background: #fff;
-  color: #5256ad;
+  color: #c4cccf;
   border-radius: 5px;
   cursor: pointer;
 }

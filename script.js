@@ -6,11 +6,11 @@ input = dropArea.querySelector("input");
 let file; //this is a global variable and we'll use it inside multiple functions
 
 div.onclick = ()=>{
-  input.click(); //if user click on the button then the input also clicked
+  input.click(); //if user click on the div then the input also clicked
 }
 
 input.addEventListener("change", function(){
-  //getting user select file and [0] this means if user select multiple files then we'll select only the first one
+  
   file = this.files[0];
   dropArea.classList.add("active");
   showFile(); //calling function
